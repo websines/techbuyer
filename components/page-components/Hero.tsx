@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="overflow-hidden mx-auto w-[80%] my-12 md:p-4 bg-transparent flex flex-col md:flex-row items-center justify-between gap-y-4">
+    <div className="overflow-hidden mx-auto p-8 md:w-[80%] my-12 md:p-4 bg-transparent flex flex-col md:flex-row items-center justify-between gap-y-4">
       <div className="flex flex-col items-center gap-y-8 md:max-w-[50%] p-2">
         <h1 className="text-3xl md:text-5xl font-semibold text-blue-500">
           Sell your used IT equipment to us - we offer the best prices!

@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 
 const Services = () => {
   return (
-    <div className="w-[80%] my-12 overflow-clip mx-auto md:p-4 bg-transparent">
+    <div className="p-8 md:w-[80%] my-12 overflow-clip mx-auto md:p-4 bg-transparent">
       <Element
         name="services"
         className="flex flex-col items-center justify-center gap-y-8"
