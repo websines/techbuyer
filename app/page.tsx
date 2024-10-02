@@ -9,7 +9,7 @@ import Services from "@/components/page-components/Services";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-black">
+    <div className="min-h-screen bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] text-black">
       <Navbar />
       <main className="container mx-auto">
         <Hero />

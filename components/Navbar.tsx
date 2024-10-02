@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <Element
       name="top"
-      className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 bg-white flex items-center justify-between py-6 px-4 md:px-8 mx-6 xl:w-4/5 2xl:w-[68%]"
+      className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 bg-white flex items-center justify-between py-6 px-4 md:px-8 mx-6 xl:w-4/5 2xl:w-[68%] shadow-lg"
     >
       <Link href={"/"}>
         <h1 className="text-xl md:text-2xl font-semibold">TECHBUYER</h1>

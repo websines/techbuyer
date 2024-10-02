@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
 
-const font = Space_Grotesk({ subsets: ["latin"] });
+const font = Lato({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "700", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Techbuyer",
