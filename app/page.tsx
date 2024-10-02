@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import About from "@/components/page-components/About";
 import Hero from "@/components/page-components/Hero";
@@ -31,6 +32,7 @@ export default function Home() {
           <LetsMakeThingsHappenSection />
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
